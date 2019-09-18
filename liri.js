@@ -39,10 +39,10 @@ var spotify = new Spotify(keys.spotifyKeys);
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-    console.log(data)
+    //console.log(data)
 
     var songs = data.tracks.items;
-    console.log(data)
+    //console.log(data)
 
     for (var i = 0; i < songs.length; i++) {
         console.log(i);
@@ -94,6 +94,7 @@ var getMeMovie = function (movieName) {
         console.log(omdb).catch(function(error){
         if (!error && response.statusCode == 200) {
             var jsonData = JSON.parse(body);
+            /*
             console.log(movieName)
             console.log(error)
             console.log(body)
@@ -108,6 +109,7 @@ var getMeMovie = function (movieName) {
             console.log('Actors: ' + jsonData.Actors);
             console.log('Rotten Tomatoes rating: ' + jsonData.tomatoRating);
             console.log('Rotten Tomatoes URL: ' + jsonData.tomatoURL);
+            */
         }
     })
     })
@@ -136,7 +138,7 @@ var pick = function (caseData, functionData) {
             break;
         case 'movie-this':
             getMeMovie(functionData)
-            console.log(functionData)
+            //console.log(functionData)
             break;
         case 'do-what-it-says':
             doWhatItSays();

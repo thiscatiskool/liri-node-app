@@ -4,3 +4,5 @@ Screen Shot 2019-09-10 at 7.47.20 PM
 Screen Shot 2019-09-10 at 7.48.50 PM
 Screen Shot 2019-09-10 at 7.50.29 PM
 Screen Shot 2019-09-10 at 7.51.07 PM
+
+![Gif of App working](/Users/thiscatiskool/Desktop/Programming/Homework/Liri Bot/liri-node-app/images/lirinode.gif)
